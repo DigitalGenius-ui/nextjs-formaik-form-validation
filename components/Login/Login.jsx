@@ -8,16 +8,19 @@ const Login = ({ setLog }) => {
       label: "Username",
       type: "text",
       placeholder: "Username...",
+      name: "username",
     },
     {
       label: "Email",
       type: "email",
       placeholder: "Email...",
+      name: "username",
     },
     {
       label: "Password",
       type: "password",
       placeholder: "Password...",
+      name: "username",
     },
   ];
 
