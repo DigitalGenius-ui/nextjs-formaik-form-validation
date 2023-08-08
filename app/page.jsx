@@ -1,8 +1,8 @@
 "use client";
 
-import Login from "./(Form)/(Login)/Login";
+import Login from "@/components/Login/Login";
+import SignUp from "@/components/SignUp/SignUp";
 import { useState } from "react";
-import SignUp from "./(Form)/(SignUp)/SignUp";
 
 export default function Home() {
   const [log, setLog] = useState(false);
